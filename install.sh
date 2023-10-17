@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Instalando dependencias de Yay 😀"
-sudo pacman -S wget exa
+sudo pacman -S wget exa fzf zsh
 
 echo "Install fonts "
 wget -c https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/FiraCode.zip
