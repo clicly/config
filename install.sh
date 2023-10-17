@@ -13,5 +13,5 @@ if [ ! -d "$HOME/.oh-my-zsh" ]; then
     git clone https://github.com/ohmyzsh/ohmyzsh.git "$HOME/.oh-my-zsh"
     git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "$HOME/.oh-my-zsh/themes/powerlevel10k"
     ln -sfv "$PWD"/.zshrc "$HOME/.zshrc"
-    # ln -sfv "$PWD/.p10k.zsh" "$HOME/.p10k.zsh"
+    ln -sfv "$PWD/.p10k.zsh" "$HOME/.p10k.zsh"
 fi
